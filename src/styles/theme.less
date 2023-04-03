@@ -1,0 +1,72 @@
+@light-1: #fff !important;
+@dark-1: #000 !important;
+@dark-2: #1f1f1f !important;
+
+.light-blue-icon {
+  color: #007bff;
+  fill: #c3e9fa;
+}
+
+.ant-form-vertical .ant-form-item-label {
+  padding-bottom: 3px;
+}
+
+body[theme-mode="light"] {
+  background-color: @light-1;
+
+  .bg-1,
+  .bg-2 {
+    background-color: @light-1;
+  }
+
+  .ant-layout-sider {
+    background-color: @light-1;
+  }
+
+  .text-1 {
+    color: #000;
+  }
+
+  // .text-2 {
+  //   color: rgba(0,0,0,.85);
+  // }
+
+  .ant-menu-custom .ant-menu-item .ant-menu-item-icon,
+  .ant-menu-custom .ant-menu-submenu .ant-menu-item-icon,
+  .ant-layout-header .header-icon,
+  .login-page .login-page-form .inner-icon {
+
+    .light-blue-icon();
+  }
+
+}
+
+body[theme-mode="dark"] {
+  .bg-1 {
+    background-color: @dark-1;
+  }
+
+  .bg-2 {
+    background-color: @dark-2;
+  }
+
+  .text-1 {
+    color: #fff;
+  }
+
+  .text-2 {
+    color: rgba(255, 255, 255, .65);
+  }
+
+  .ant-menu-custom {
+
+    .ant-menu-item,
+    .ant-menu-submenu {
+      .ant-menu-item-icon {
+        color: #e5b804;
+        fill: #f9efc7;
+      }
+    }
+  }
+
+}

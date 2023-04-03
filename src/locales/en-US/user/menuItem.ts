@@ -1,0 +1,16 @@
+export const enUS_menu = {
+  'menu.dashboard': 'Dashboard',
+  'menu.resource': 'Human Resource',
+  'menu.task': 'Tasks',
+  'menu.component': 'Component',
+  'menu.component.form': 'Form',
+  'menu.component.table': 'Table',
+  'menu.component.search': 'Search----',
+  'menu.business': 'Business',
+  'menu.business.basic': 'Basic',
+  'menu.business.withSearch': 'With Search',
+  'menu.business.withAside': 'With Aside',
+  'menu.permission': 'Permission',
+  'menu.permission.route': 'Route Permission',
+  'menu.permission.404': '404',
+};
